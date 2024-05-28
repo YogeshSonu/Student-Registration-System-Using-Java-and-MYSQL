@@ -1,0 +1,12 @@
+create database studentmanagementsystem;
+use studentmanagementsystem;
+create table admin(Name varchar(20), Age varchar(10),Username varchar(20), Password varchar(20));
+show tables;
+select * from admin;
+create table login(Username varchar(20),Password varchar(20));
+select * from login;
+Create table Students(Student_Id varchar(10),Student_Name varchar(50),Date_OfBirth varchar(20),Gender varchar(10),Email varchar(50),Mobile_No varchar(20),Class varchar(10),Address varchar(60),Relegion varchar(15),Category varchar(15),Blood_Group varchar(10));
+show tables;
+Select * from Students;
+Create table Parents(Student_Id varchar(10),Father_Name varchar(20),Mother_Name varchar(20),Parent_Mobile_No varchar(12),Father_Occupations varchar(30));
+select * from Parents;
